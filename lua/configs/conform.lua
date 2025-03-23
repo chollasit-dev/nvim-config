@@ -4,6 +4,7 @@ local options = {
     bash = { "shfmt" },
     css = { "prettierd" },
     gitconfig = { "shfmt" },
+    go = { "goimports-reviser", "golines" },
     html = { "prettierd" },
     javascript = { "prettierd" },
     javascriptreact = { "prettierd" },

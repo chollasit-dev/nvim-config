@@ -4,11 +4,6 @@ require "nvchad.mappings"
 
 local map = vim.keymap.set
 
--- examples
--- map("i", "jk", "<ESC>")
--- map("n", ";", ":", { desc = "CMD enter command mode" })
--- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
-
 -- my keymaps
 map("n", "<leader>X", ":tabclose<CR>", { desc = "Close current tab" })
 
@@ -50,3 +45,8 @@ map("n", "<leader>dd", ":Noice dismiss<CR>", { desc = "Noice dismiss" })
 -- vim.keymap.set("n", "]t", function()
 --   require("todo-comments").jump_next { keywords = { "ERROR", "WARNING" } }
 -- end, { desc = "Next error/warning todo comment" })
+
+-- go.nvim
+map("n", "<leader>pfs", ":GoFillStruct<CR>", { desc = "Auto fill Go struct" })
+map("n", "<leader>pie", ":GoIfErr<CR>", { desc = "Add Go if err" })
+map("n", "<leader>pat", ":GoAddTag<CR>", { desc = "Add Go tag" })
