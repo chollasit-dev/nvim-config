@@ -8,11 +8,13 @@ local options = {
     html = { "prettierd" },
     javascript = { "prettierd" },
     javascriptreact = { "prettierd" },
+    json = { "prettierd" },
     lua = { "stylua" },
     markdown = { "prettierd", "markdownlint-cli2", "markdown-toc" },
     sh = { "shfmt" },
     typescript = { "prettierd" },
     typescriptreact = { "prettierd" },
+    yaml = { "prettierd" },
     zsh = { "shfmt" },
   },
 
