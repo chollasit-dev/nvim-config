@@ -7,6 +7,10 @@ local map = vim.keymap.set
 -- my keymaps
 map("n", "<leader>X", ":tabclose<CR>", { desc = "Close current tab" })
 
+-- telescope
+map("n", "<leader>fd", ":Telescope diagnostics<CR>", { desc = "telescope find diagnostics" })
+map("n", "<leader>fc", ":Telescope git_commits<CR>", { desc = "telescope find commit" })
+
 -- neogit
 map("n", "<leader>gc", ":Neogit commit<CR>", { desc = "Neogit commit" })
 map("n", "<leader>gP", ":Neogit push<CR>", { desc = "Neogit push" })
