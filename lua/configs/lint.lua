@@ -1,5 +1,6 @@
 require("lint").linters_by_ft = {
   bash = { "shellcheck" },
+  dockerfile = { "hadolint" },
   gitcommit = { "gitlint", "commitlint" },
   go = { "golangci-lint" },
   javascript = { "eslint_d" },

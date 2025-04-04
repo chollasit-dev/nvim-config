@@ -7,11 +7,13 @@ local nvlsp = require "nvchad.configs.lspconfig"
 local servers = {
   "bashls",
   "cssls",
+  "docker_compose_language_service",
+  "dockerls",
   "html",
   "jsonls",
-  "yamlls",
   "tailwindcss",
   "ts_ls",
+  "yamlls",
 }
 
 -- lsps with default config
